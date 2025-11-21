@@ -1,0 +1,17 @@
+.pg-item-box{
+ 	overflow:hidden; 
+}
+.pg-item-box-info, .pg-category-box-info,
+.pg-item-box, .pg-category-box{
+	padding:0;
+}
+.pg-category-box-image svg, .pg-detail-item-image-box img, .pg-item-box-image img, .pg-item-box-image svg, .pg-category-box-image img{
+  border-radius:0;
+  box-shadow:0;
+}
+
+.pg-categories-items-box, .pg-category-items-box
+{
+  justify-content:center;
+  align-content:center;
+}

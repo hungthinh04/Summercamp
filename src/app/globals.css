@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Reset margins and padding for html and body */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Ensure tm-page takes full width */
+.tm-page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center partnership logos in their cards */
+.uk-card-body .el-image,
+.uk-card-body .el-image img,
+.uk-card-hover .uk-card-body .el-image,
+.uk-card-hover .uk-card-body .el-image img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Center footer logo */
+footer .uk-text-center .el-image,
+footer .uk-text-center .el-image img,
+footer .uk-margin .el-link .el-image,
+footer .uk-margin .el-link .el-image img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Center partnership logos in flex cards */
+.el-item.uk-flex.uk-flex-column .uk-card-body {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.el-item.uk-flex.uk-flex-column .uk-card-body .el-image {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 auto !important;
+}
+
+/* Ensure header logo displays */
+.uk-logo img,
+.uk-logo .el-image {
+  display: block !important;
+}
+
+/* Center navbar logo */
+.uk-navbar-center .uk-logo {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* Add padding to sections for better alignment - xích vào trong xíu */
+.uk-section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 960px) {
+  .uk-section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* Ensure containers have proper padding */
+.uk-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 960px) {
+  .uk-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.uk-container-large {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 960px) {
+  .uk-container-large {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
