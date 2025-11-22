@@ -188,6 +188,12 @@ export const PageHead: React.FC = () => {
           __html: `document.addEventListener('DOMContentLoaded', function () { const parentItems = document.querySelectorAll('#module-menu-dialog-mobile li.uk-parent'); parentItems.forEach(parent => { const subMenu = parent.querySelector('.uk-nav-sub'); if (subMenu) { subMenu.setAttribute('hidden', ''); parent.classList.remove('uk-open'); const link = parent.querySelector('a'); if (link) link.setAttribute('aria-expanded', 'false'); } }); parentItems.forEach(parent => { const link = parent.querySelector('a'); const subMenu = parent.querySelector('.uk-nav-sub'); if (!link || !subMenu) return; link.addEventListener('click', function (e) { const isHidden = subMenu.hasAttribute('hidden'); if (isHidden) { e.preventDefault(); parentItems.forEach(other => { if (other !== parent) { const otherSub = other.querySelector('.uk-nav-sub'); const otherLink = other.querySelector('a'); if (otherSub) otherSub.setAttribute('hidden', ''); other.classList.remove('uk-open'); if (otherLink) otherLink.setAttribute('aria-expanded', 'false'); } }); subMenu.removeAttribute('hidden'); parent.classList.add('uk-open'); link.setAttribute('aria-expanded', 'true'); } }); }); });`,
         }}
       />
+
+      {/* Bookacamp Integration */}
+      <Script
+        src="https://www.bookacamp.de/common/js/bac.min.js"
+        strategy="lazyOnload"
+      />
     </>
   );
 };

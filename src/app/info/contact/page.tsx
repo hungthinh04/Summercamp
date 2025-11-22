@@ -41,7 +41,7 @@ export default function ContactPage() {
               <div className="uk-divider-icon uk-width-medium uk-margin-auto"></div>
 
               <div className="uk-margin">
-                <div className="uk-grid uk-child-width-1-1 uk-child-width-1-4@m uk-grid-match" uk-grid>
+                <div className="uk-grid uk-child-width-1-1 uk-child-width-1-4@m uk-grid-match" uk-grid="">
                   {/* Business Hours */}
                   <div>
                     <div className="el-item uk-panel uk-margin-remove-first-child">
@@ -110,7 +110,7 @@ export default function ContactPage() {
 
               {/* Social Media */}
               <div className="uk-margin uk-text-center@m uk-text-center">
-                <ul className="uk-child-width-auto uk-grid-small uk-flex-inline uk-flex-middle" uk-grid>
+                <ul className="uk-child-width-auto uk-grid-small uk-flex-inline uk-flex-middle" uk-grid="">
                   <li className="el-item">
                     <a
                       className="el-link uk-icon-link"

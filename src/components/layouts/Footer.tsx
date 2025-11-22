@@ -14,21 +14,21 @@ export const Footer: React.FC = () => {
         uk-scrollspy="target: [uk-scrollspy-class]; cls: uk-animation-fade; delay: false;"
       >
         <div className="uk-container uk-container-large">
-          <div className="uk-grid tm-grid-expand uk-grid-large uk-grid-margin-large" uk-grid>
+          <div className="uk-grid tm-grid-expand uk-grid-large uk-grid-margin-large" uk-grid="">
             <div className="uk-grid-item-match uk-flex-middle uk-width-1-2@m">
               <div className="uk-panel uk-width-1-1">
-                <div className="uk-h2 uk-text-left@m uk-text-center" uk-scrollspy-class>
+                <div className="uk-h2 uk-text-left@m uk-text-center" uk-scrollspy-class="">
                   <Link className="el-link uk-link-reset" href="/info/contact">
                     Kontakt / Contact
                   </Link>
                 </div>
-                <div className="uk-divider-small uk-text-left@m uk-text-center" uk-scrollspy-class></div>
+                <div className="uk-divider-small uk-text-left@m uk-text-center" uk-scrollspy-class=""></div>
                 <ul
                   className="uk-list uk-margin-medium uk-text-left@m uk-text-center"
-                  uk-scrollspy-class
+                  uk-scrollspy-class=""
                 >
                   <li className="el-item">
-                    <div className="uk-child-width-expand@s uk-grid-small" uk-grid>
+                    <div className="uk-child-width-expand@s uk-grid-small" uk-grid="">
                       <div className="uk-width-medium@s uk-text-break">
                         <div className="el-title uk-margin-remove uk-h6">
                           Adresse / Address
@@ -66,7 +66,7 @@ export const Footer: React.FC = () => {
                     </div>
                   </li>
                   <li className="el-item">
-                    <div className="uk-child-width-expand@s uk-grid-small" uk-grid>
+                    <div className="uk-child-width-expand@s uk-grid-small" uk-grid="">
                       <div className="uk-width-medium@s uk-text-break">
                         <div className="el-title uk-margin-remove uk-h6">
                           Telefon / Phone - Camps
@@ -82,7 +82,7 @@ export const Footer: React.FC = () => {
                     </div>
                   </li>
                   <li className="el-item">
-                    <div className="uk-child-width-expand@s uk-grid-small" uk-grid>
+                    <div className="uk-child-width-expand@s uk-grid-small" uk-grid="">
                       <div className="uk-width-medium@s uk-text-break">
                         <div className="el-title uk-margin-remove uk-h6">E-Mail - Camps</div>
                       </div>
@@ -96,7 +96,7 @@ export const Footer: React.FC = () => {
                     </div>
                   </li>
                   <li className="el-item">
-                    <div className="uk-child-width-expand@s uk-grid-small" uk-grid>
+                    <div className="uk-child-width-expand@s uk-grid-small" uk-grid="">
                       <div className="uk-width-medium@s uk-text-break">
                         <div className="el-title uk-margin-remove uk-h6">
                           Telefon / Phone - School Trips
@@ -116,10 +116,10 @@ export const Footer: React.FC = () => {
             </div>
             <div className="uk-grid-item-match uk-flex-middle uk-width-1-2@m">
               <div className="uk-panel uk-width-1-1">
-                <div className="uk-margin uk-text-center@m uk-text-center" uk-scrollspy-class>
+                <div className="uk-margin uk-text-center@m uk-text-center" uk-scrollspy-class="">
                   <ul
                     className="uk-child-width-auto uk-grid-small uk-flex-inline uk-flex-middle"
-                    uk-grid
+                    uk-grid=""
                   >
                     <li className="el-item">
                       <a
@@ -168,13 +168,13 @@ export const Footer: React.FC = () => {
         uk-scrollspy="target: [uk-scrollspy-class]; cls: uk-animation-slide-bottom-medium; delay: 200;"
       >
         <div className="uk-container uk-container-large">
-          <div className="uk-grid tm-grid-expand uk-grid-margin" uk-grid>
+          <div className="uk-grid tm-grid-expand uk-grid-margin" uk-grid="">
             <div className="uk-grid-item-match uk-flex-middle uk-width-1-3@m">
               <div className="uk-panel uk-width-1-1"></div>
             </div>
             <div className="uk-grid-item-match uk-flex-middle uk-width-1-3@m">
               <div className="uk-panel uk-width-1-1">
-                <div className="uk-margin uk-text-center@m uk-text-center" uk-scrollspy-class>
+                <div className="uk-margin uk-text-center@m uk-text-center" uk-scrollspy-class="">
                   <Link className="el-link" href="/" style={{ display: "inline-block" }}>
                     <Image
                       src={logoUrl}
@@ -187,10 +187,10 @@ export const Footer: React.FC = () => {
                     />
                   </Link>
                 </div>
-                <div className="uk-panel uk-text-meta uk-margin uk-text-center" uk-scrollspy-class>
+                <div className="uk-panel uk-text-meta uk-margin uk-text-center" uk-scrollspy-class="">
                   <p>Copyright © 2002-2025 by Go and Grow</p>
                 </div>
-                <div className="uk-panel uk-text-small uk-margin uk-text-center" uk-scrollspy-class>
+                <div className="uk-panel uk-text-small uk-margin uk-text-center" uk-scrollspy-class="">
                   <p>
                     <a href="https://www.campadventure.de/de/impressum">Impressum</a> /{" "}
                     <a href="https://www.campadventure.de/de/datenschutz">Datenschutz</a> /{" "}
@@ -205,7 +205,7 @@ export const Footer: React.FC = () => {
                 </div>
                 <div
                   className="uk-panel uk-text-small uk-margin-small uk-text-center"
-                  uk-scrollspy-class
+                  uk-scrollspy-class=""
                 >
                   <p>
                     <span style={{ color: "#008000" }}>

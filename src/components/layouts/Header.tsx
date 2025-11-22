@@ -34,7 +34,7 @@ export const Header: React.FC = () => {
                       href="#tm-dialog-mobile"
                       className="uk-navbar-toggle"
                     >
-                      <div uk-navbar-toggle-icon></div>
+                      <div uk-navbar-toggle-icon=""></div>
                     </a>
                   </div>
                   <div className="uk-navbar-center">
@@ -64,7 +64,7 @@ export const Header: React.FC = () => {
               ></button>
 
               <div className="uk-margin-auto-bottom">
-                <div className="uk-grid uk-child-width-1-1" uk-grid>
+                <div className="uk-grid uk-child-width-1-1" uk-grid="">
                   <div>
                     <div className="uk-panel" id="module-tm-4">
                       <Link href="/" aria-label="Back to home" className="uk-logo">
@@ -361,7 +361,7 @@ export const Header: React.FC = () => {
                       <ul className="uk-navbar-nav">
                         <li className="item-165 uk-parent">
                           <a href="/destinations">
-                            Camp Locations <span uk-navbar-parent-icon></span>
+                            Camp Locations <span uk-navbar-parent-icon=""></span>
                           </a>
                           <div className="uk-drop uk-navbar-dropdown">
                             <div>
@@ -400,13 +400,13 @@ export const Header: React.FC = () => {
                         </li>
                         <li className="item-672 uk-parent">
                           <a href="/camp-profiles">
-                            Camp Profiles <span uk-navbar-parent-icon></span>
+                            Camp Profiles <span uk-navbar-parent-icon=""></span>
                           </a>
                           <div className="uk-drop uk-navbar-dropdown" style={{ width: "400px" }}>
                             <div className="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
                               <div className="uk-width-1-1">
                                 <div>
-                                  <div className="uk-child-width-expand" uk-grid>
+                                  <div className="uk-child-width-expand" uk-grid="">
                                     <div>
                                       <ul className="uk-margin-remove-bottom uk-nav uk-nav-default">
                                         <li className="el-item">
@@ -615,7 +615,7 @@ export const Header: React.FC = () => {
                       <ul className="uk-navbar-nav">
                         <li className="item-226 uk-parent">
                           <a href="/academy">
-                            Academy <span uk-navbar-parent-icon></span>
+                            Academy <span uk-navbar-parent-icon=""></span>
                           </a>
                           <div className="uk-drop uk-navbar-dropdown">
                             <div>
@@ -625,7 +625,7 @@ export const Header: React.FC = () => {
                                 </li>
                                 <li className="item-237 uk-parent">
                                   <a href="#" uk-scroll="">
-                                    Educational Programs <span uk-navbar-parent-icon></span>
+                                    Educational Programs <span uk-navbar-parent-icon=""></span>
                                   </a>
                                   <ul className="uk-nav-sub">
                                     <li>
@@ -651,7 +651,7 @@ export const Header: React.FC = () => {
                         </li>
                         <li className="item-183 uk-parent">
                           <a href="/info">
-                            Info <span uk-navbar-parent-icon></span>
+                            Info <span uk-navbar-parent-icon=""></span>
                           </a>
                           <div className="uk-drop uk-navbar-dropdown">
                             <div>
@@ -710,7 +710,7 @@ export const Header: React.FC = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            Photos <span uk-navbar-parent-icon></span>
+                            Photos <span uk-navbar-parent-icon=""></span>
                           </a>
                           <div className="uk-drop uk-navbar-dropdown">
                             <div>

@@ -3,6 +3,17 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   
+  // Cấu hình images để cho phép external hosts
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.provenexpert.com',
+        pathname: '/**',
+      },
+    ],
+  },
+  
   // Cấu hình để serve static files từ public folder
   // Mặc định Next.js tự động serve các file trong public/
   // Tất cả các file trong public/ có thể truy cập trực tiếp từ root URL
